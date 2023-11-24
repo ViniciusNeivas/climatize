@@ -1,0 +1,90 @@
+body{
+    background-color: #eeeeee;
+    font-family: "Red Hat Display", sans-serif;
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    justify-content: center;
+}
+
+.container{
+    color: #ffffff;
+    max-width: 300px;
+    text-align: center;
+    background-image: url(../images/background.png);
+    background-size: cover;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.5) 0 10px 50px;
+}
+
+.search{
+    /* background-color: green; */
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+}
+
+.search input {
+    background-color: gray;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 700;
+    opacity: 0.8;
+}
+
+.search input::placeholder{
+    color: #ffffff;
+}
+
+.search .search-btn {
+    background-color: gray;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    opacity: 0.8;   
+}
+
+.search .magnifier {
+    width: 30px;
+    padding: 6px;
+    opacity: 0.8;
+}
+
+.main-information{
+    margin: 30px;
+}
+
+.main-information h1 {
+    font-size: 18px;
+}
+
+.main-information .temperature {
+    font-size: 68px;
+    margin: 20px 0;
+}
+
+.main-information .condition {
+    font-style: 20px;
+}
+
+.secondary-information {
+    background-color: #ffffff;
+    color: black;
+    padding: 20px 30px;
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+}
+
+.secondary-information .humidity, .secondary-information .wind-speed {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+}
+
