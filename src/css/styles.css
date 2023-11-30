@@ -41,7 +41,7 @@ body{
     color: #ffffff;
 }
 
-.search .search-btn {
+.search .search-button {
     background-color: gray;
     cursor: pointer;
     border: none;
